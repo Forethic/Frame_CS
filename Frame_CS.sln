@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{BA8C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Micro.Hello", "Caliburn.Micro\samples\Caliburn.Micro.Hello\Caliburn.Micro.Hello.csproj", "{218CA7D0-9E47-42DC-96B8-E3085E20102D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caliburn.Micro.HelloExplicitAction", "Caliburn.Micro\samples\Caliburn.Micro.HelloExplicitAction\Caliburn.Micro.HelloExplicitAction.csproj", "{554CFC33-5626-44AC-B19D-C628A4A4E404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,12 +30,17 @@ Global
 		{218CA7D0-9E47-42DC-96B8-E3085E20102D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{218CA7D0-9E47-42DC-96B8-E3085E20102D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{218CA7D0-9E47-42DC-96B8-E3085E20102D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554CFC33-5626-44AC-B19D-C628A4A4E404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554CFC33-5626-44AC-B19D-C628A4A4E404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554CFC33-5626-44AC-B19D-C628A4A4E404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554CFC33-5626-44AC-B19D-C628A4A4E404}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{218CA7D0-9E47-42DC-96B8-E3085E20102D} = {BA8CFFAE-0B00-4666-8385-6C64B5564A10}
+		{554CFC33-5626-44AC-B19D-C628A4A4E404} = {BA8CFFAE-0B00-4666-8385-6C64B5564A10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0C7F5499-A9D7-4E81-AEC7-538BFB26384A}

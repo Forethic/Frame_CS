@@ -99,6 +99,7 @@ namespace Caliburn.Micro
                     }
                 }
 
+                // 调用 Can_MethodName 方法，需要传入拥有该方法的对象以及要传入的参数
                 context.CanExecute = () => (bool)guard.Invoke(context.Target,
                     MessageBinder.DetermineParameter(context, guard.GetParameters()));
             };
